@@ -1,0 +1,16 @@
+--------------------English / Inglés---------------------------
+
+Rock, paper or scissors is a typical game in which each of the players selects one of the previously named options in order to beat the opponent, rock beats scissors, scissors beats papal and paper beats rock.
+
+The program is designed as follows: First, what I do is ask the user through a printout in which language he wants to run the program and depending on what he selects, is the language in which it will be executed, the language selection is done through an "if".
+
+Second, the logic of the game is the following, first what I do is define a function called "game" in which I am going to implement all the logic of the game, what I do there is that by means of an "input" I ask the user to type the option they want, and I convert the user's typing to lowercase with a ".lower()" and store it in a variable called "player", then in another variable called "cpu "By means of a "random.choice" the machine also selects an option and shows the message on the screen that I selected, later what is done is that by means of an "if" I make the respective comparisons to know if the player won, lost or tied , this through some parameters that I send through another function, which is called "player_win" here what I have are two arguments, which contain the selection of "player" and "cpu" to carry out the comparisons of when the player wins, if this happens it throws a True, otherwise it throws a False and finally what I do is print the "game" function.
+
+
+--------------------Español / Spanish--------------------------
+
+Piedra, papel o tijera es un tipico juego en el que cada uno de los jugadores selecciona una de las opciones anteriormente nombradas con el fin de ganarle al oponente, piedra le gana a tijeras, tijeras le gana a papal y papel le gana a piedra.
+
+El programa se diseño de la siguiente manera: Primero lo que hago es preguntarle al usuario por medio de unos print en que idioma desea ejecutar el programa y dependiendo de lo que seleccione es el idioma en que se ejecutará, la seleccion de idioma se hace mediante un "if".
+
+Segundo, ya la logica del juego es la siguiente, primero lo que hago es definir una función que se llama "juego" en la cual voy a implementar toda la logica del juego, allí lo que hago es que por medio de un "input" le pido al usuario que digite la opción que desee, y convierto lo digitado por el usuario a minuscula con un ".lower()" y la almaceno en una variable que se llama "jugador", luego en otra variable que se llama "cpu" mediante un "random.choice" la maquina tambien selecciona una opción y muestra el mensaje en pantalla de que selecciono, posteriormente lo que se hace es que mediante un "if" hago las respectivas comparaciones para saber si el jugador ganó, perdió o empató, esto mediante unos parametros que le mando mediante otra función, la cual se llama "jugador_gana" aqui lo que tengo son dos argumentos, los cuales contienen la selección de "jugador" y "cpu" para ralizar las comparaciónes de cuando el jugador gana, si esto pasa arroja un True, de lo contrario arroja un False y por ultimo lo que hago es imprimir la funcion "juego".
